@@ -1,6 +1,6 @@
 # DualStake: Dual-Path Confidence Calibration in Deep Research Agents
 
-> **Paper:** [link to be added]()
+> **Accepted to:** EMNLP 2026 Main Conference
 
 ## Overview
 
@@ -9,7 +9,7 @@ Large language model agents equipped with search tools can collect evidence over
 Built on [Search-R1](https://github.com/PeterGriffinJin/Search-R1), DualStake augments the agent trajectory with two confidence signals: **Evidence Confidence**, elicited after retrieval, and **Answer Confidence**, elicited after the final answer. It jointly supervises both signals using a margin-clipped stake reward, improving calibration while preserving answer quality.
 
 <p align="center">
-  <a href="assets/overview.pdf"><img src="assets/overview.pdf" alt="DualStake overview" width="90%" /></a>
+  <a href="assets/overview.png"><img src="assets/overview.png" alt="DualStake overview" width="90%" /></a>
 </p>
 
 ## Getting Started
@@ -86,17 +86,3 @@ Use `scripts/compute_metrics_ext.py` and `scripts/calc_last_step_conf.py` to cal
 ## Acknowledgements
 
 DualStake is built on [Search-R1](https://github.com/PeterGriffinJin/Search-R1) and includes modified components from [veRL](https://github.com/volcengine/verl). We thank their authors and contributors for making their work available. Please preserve the included `LICENSE` and `Notice.txt` when redistributing this code.
-
-## Citation
-
-If you find this work useful, please cite:
-
-```bibtex
-@article{dualstake2026,
-  title={DualStake: Dual-Path Confidence Calibration in Deep Research Agents},
-  author={Anonymous},
-  journal={arXiv preprint},
-  year={2026},
-  note={Paper link to be added}
-}
-```
